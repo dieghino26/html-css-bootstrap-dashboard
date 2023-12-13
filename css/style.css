@@ -11,10 +11,10 @@ body {
     font-family: sans-serif;
 }
 
+
 /*layout*/
 .page-header {
     height: 80px;
-    background-color: gray;
 
 }
 
@@ -37,7 +37,13 @@ main {
     overflow: auto;
 }
 
+/*header*/
+
 .main-header {
     background-color: aqua;
     height: 150px;
+}
+
+.fa-bell {
+    color: #FF8F00;
 }
