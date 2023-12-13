@@ -50,7 +50,7 @@ body {
 }
 
 .sidebar .bottom {
-    margin-top: 690px;
+    margin-top: 660px;
 }
 
 /*main*/
@@ -70,4 +70,8 @@ main {
 
 .fa-bell {
     color: #FF8F00;
+}
+
+th img {
+    width: 30px;
 }
