@@ -36,6 +36,14 @@
                 </div>
             </form>
         </nav>
+        <div class="header-icons">
+            <ul class="d-flex justify-content-center gap-3 pt-4">
+                <li class="d-none d-lg-block pt-1"><i class="fa-solid fa-list-ul"></i></li>
+                <li class="d-none d-lg-block pt-1"><i class="fa-solid fa-circle-question"></i></li>
+                <li class="d-none d-lg-block pt-1"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+            </ul>
+
+        </div>
         <span class="d-flex align-items-center fs-5 px-3"><i class="fas fa-bell"></i></span>
     </header>
     <!--main-->
@@ -61,7 +69,130 @@
         </div>
         <!--main-content-->
         <main>
-            <header class="main-header"></header>
+            <header class="main-header">
+                <div class="row flex-wrap row-cols-1 row-cols-md-3 p-3 mx-1">
+                    <div class="col">
+                        <h2>Boolean <button class="btn btn-darkblue">Piano blaze</button></h2>
+
+                        <button class="btn btn-darkblue">3 app</button>
+                        <i class="fas fa-angles-right"></i>
+                        <button class="btn btn-darkblue d-lg-none">+</button>
+
+                        <div class="d-none d-lg-flex flex-wrap mb-4">
+                            <button class="btn btn-darkblue">Boolean mobile app</button>
+                            <button class="btn btn-darkblue">Boolean web app</button>
+                            <button class="btn btn-darkblue">Boolean blog app</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p>Studenti online negli ultimi 30 minuti</p>
+                        <p class="header-number mb-4">125</p>
+                    </div>
+                    <div class="col">
+                        <span>Nuovo Studente</span>
+
+                        <button class="btn btn-plus btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+
+                                <div class="row">
+
+                                    <div class="col">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="name" class="form-label">Nome</label>
+                                                <input type="name" class="form-control" id="name"
+                                                    aria-describedby="emailHelp">
+                                                <div id="name" class="form-text"></div>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="lastname" class="form-label">Cognome</label>
+                                                <input type="lastname" class="form-control" id="lastname">
+                                            </div>
+
+                                            <label for="email" class="form-label d-block">Email</label>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="email" class="form-control" aria-label="email"
+                                                    aria-describedby="basic-addon1">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="password" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="password">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="col">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="address" class="form-label">Indirizzo</label>
+                                                <input type="address" class="form-control" id="address">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="col">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="city" class="form-label">Città</label>
+                                                <input type="city" class="form-control" id="city">
+                                            </div>
+
+                                            <label for="city" class="form-label">Stato</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Scegli...</option>
+                                                <option value="1">Italia</option>
+                                                <option value="2">Germania</option>
+                                                <option value="3">Francia</option>
+                                            </select>
+
+                                            <div class="mb-3">
+                                                <label for="postalcode" class="form-label">CAP</label>
+                                                <input type="postalcode" class="form-control" id="postalcode">
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                    <div class="col">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control" type="file" id="formFile">
+                                            </div>
+
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Seleziona per
+                                                    proseguire</label>
+                                            </div>
+
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="submit" class="btn btn-warning">Svuota</button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </header>
             <div class="row d-flex m-1 p-4">
 
                 <div class="col-12 col-lg-8">

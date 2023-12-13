@@ -65,7 +65,21 @@ main {
 
 .main-header {
     background-color: #1B72E8;
-    height: 100px;
+    color: #fff;
+}
+
+.btn-darkblue {
+    background-color: #165BBA;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-plus {
+    font-size: 20px;
+}
+
+.header-number {
+    font-size: 30px;
 }
 
 .fa-bell {
